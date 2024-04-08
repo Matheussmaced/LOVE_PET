@@ -1,8 +1,8 @@
 'use client'
 
-import { GlobalStyles } from "@/styles/global";
-import { defaultTheme } from "@/themes/default";
-import { ThemeProvider } from "styled-components"
+import { GlobalStyles } from '@/styles/global'
+import { defaultTheme } from '@/themes/default'
+import { ThemeProvider } from 'styled-components'
 
 export default function Provider() {
   return (
@@ -12,5 +12,5 @@ export default function Provider() {
         <h1>Hello World</h1>
       </ThemeProvider>
     </main>
-  );
+  )
 }
