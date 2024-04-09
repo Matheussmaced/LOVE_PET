@@ -10,5 +10,5 @@ export const defaultTheme = {
   'orange-light': '#fceab9',
   'orange-medium': '#f8d594',
   'orange-dark-medium': '#f5bf70',
-  'orange-dark': '#f2aa4b'
+  'orange-dark': '#f2aa4b',
 }
