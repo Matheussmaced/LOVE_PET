@@ -1,4 +1,4 @@
-import Provider from './styles'
+import Provider from '../styles/stylesHome'
 
 export default function Home() {
   return (

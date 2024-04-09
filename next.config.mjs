@@ -2,7 +2,10 @@
 const nextConfig = {
   compiler: {
     styledComponents: true,
-    }
-};
+  },
+  experimental: {
+    fontDisplay: true,
+  },
+}
 
-export default nextConfig;
+export default nextConfig
