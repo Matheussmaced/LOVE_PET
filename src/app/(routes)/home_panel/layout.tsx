@@ -1,9 +1,11 @@
 import { ReactNode } from 'react'
-import Header from '../../components/header'
 
 import type { Metadata } from 'next'
 // eslint-disable-next-line
 import { Bebas_Neue } from 'next/font/google'
+
+import PanelOptions from '@/components/panelOptions'
+import HeaderPanel from '@/components/headerPanel'
 
 const bebasNeue = Bebas_Neue({ subsets: ['latin'], weight: '400' })
 
@@ -15,7 +17,8 @@ export const metadata: Metadata = {
 export default function StoreLayout({ children }: { children: ReactNode }) {
   return (
     <div className={bebasNeue.className}>
-      <Header />
+      <HeaderPanel />
+      <PanelOptions />
       {children}
     </div>
   )
