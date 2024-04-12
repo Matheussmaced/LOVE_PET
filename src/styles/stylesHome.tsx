@@ -2,15 +2,22 @@
 
 import { GlobalStyles } from '@/styles/global'
 import { defaultTheme } from '@/themes/default'
+import Link from 'next/link'
 import { ThemeProvider } from 'styled-components'
+import { ButtonsContainer } from './stylesHomeStyle'
 
 export default function Provider() {
   return (
-    <main>
-      <ThemeProvider theme={defaultTheme}>
+    <ThemeProvider theme={defaultTheme}>
+      <ButtonsContainer>
         <GlobalStyles />
-        <h1>Hello World</h1>
-      </ThemeProvider>
-    </main>
+        <Link href="/login">
+          <button>Login</button>
+        </Link>
+        <Link href="/register">
+          <button>Registrar</button>
+        </Link>
+      </ButtonsContainer>
+    </ThemeProvider>
   )
 }
