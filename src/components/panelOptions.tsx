@@ -21,7 +21,7 @@ export default function PanelOptions() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <MainContainer>
-        <LinkContainer href="#" target="_blank">
+        <LinkContainer href="home_panel">
           <IconsContainer>
             <Icon>
               <Home size={40} />
@@ -31,7 +31,7 @@ export default function PanelOptions() {
           </IconsContainer>
         </LinkContainer>
 
-        <LinkContainer href="#" target="_blank">
+        <LinkContainer href="bath_and_grooming">
           <IconsContainer>
             <Icon>
               <CalendarDays size={40} />
@@ -43,7 +43,7 @@ export default function PanelOptions() {
           </IconsContainer>
         </LinkContainer>
 
-        <LinkContainer href="#" target="_blank">
+        <LinkContainer href="#">
           <IconsContainer>
             <Icon>
               <BriefcaseMedical size={40} />
@@ -55,7 +55,7 @@ export default function PanelOptions() {
           </IconsContainer>
         </LinkContainer>
 
-        <LinkContainer href="#" target="_blank">
+        <LinkContainer href="#">
           <IconsContainer>
             <Icon>
               <CircleUserRound size={40} />
@@ -65,7 +65,7 @@ export default function PanelOptions() {
           </IconsContainer>
         </LinkContainer>
 
-        <LinkContainer href="#" target="_blank">
+        <LinkContainer href="#">
           <IconsContainer>
             <Icon>
               <History size={40} />

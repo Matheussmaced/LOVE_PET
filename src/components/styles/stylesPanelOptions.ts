@@ -9,24 +9,35 @@ export const MainContainer = styled.main`
 
   gap: 2rem;
   padding: 1rem;
-  cursor: pointer;
 
   border-bottom: 1px solid ${(props) => props.theme['orange-dark-medium']};
+
+  @media (max-width: 950px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 `
 
 export const IconsContainer = styled.div`
-  background-color: ${(props) => props.theme['orange-medium']};
+  background-color: transparent;
   width: 10rem;
   height: 9rem;
   border-radius: 5px;
-  border: transparent solid;
+  border: 3px solid ${(props) => props.theme['orange-light']};
+
+  cursor: pointer;
 
   text-align: center;
+  transition: 0.5s ease;
 
   p {
     font-size: 1.5rem;
     margin-top: 1rem;
     line-height: 1em;
+  }
+
+  &:hover {
+    transform: scale(1.2);
   }
 `
 

@@ -11,7 +11,7 @@ export const HeaderContainer = styled.header`
 
   height: 8rem;
   background-color: ${(props) => props.theme['orange-light']};
-  width: 100%;
+
   margin-bottom: 0.5rem;
 
   border-radius: 6px;

@@ -9,11 +9,11 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     :focus {
       outline: 0;
-      box-shadow: 0 0 0 2px ${(props) => props.theme['orange-dark']};
+      box-shadow: none};
     }
     body {
       background-color: ${(props) => props.theme['base-background']};
       font-size: 1rem;
     }
-  }
+  
 `
