@@ -13,7 +13,7 @@ export const ParentContainer = styled.div`
 
   gap: 1rem;
 
-  margin: 0 auto;
+  margin: 2rem auto 2rem;
 `
 
 export const MainContainer = styled.div`

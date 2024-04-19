@@ -55,7 +55,7 @@ export default function PanelOptions() {
           </IconsContainer>
         </LinkContainer>
 
-        <LinkContainer href="#">
+        <LinkContainer href="clients">
           <IconsContainer>
             <Icon>
               <CircleUserRound size={40} />
