@@ -43,7 +43,7 @@ export default function PanelOptions() {
           </IconsContainer>
         </LinkContainer>
 
-        <LinkContainer href="#">
+        <LinkContainer href="veterinary_diary">
           <IconsContainer>
             <Icon>
               <BriefcaseMedical size={40} />
